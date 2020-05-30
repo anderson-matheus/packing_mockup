@@ -14,13 +14,37 @@ header {
     height: 80px;
     background-color: #FBFBFB;
     background-image: none;
-    margin-bottom: 20px;
 }
 
 header img {
     display: block;
     width: 200px;
     margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title  {
+    text-align: center;
+    background-color: #FBFBFB;
+    width: 80%;
+    margin: 20px 10%;
+    padding: 20px;
+    -webkit-box-shadow: -5px 0px 73px 25px rgba(0,0,0,0.17);
+    -moz-box-shadow: -5px 0px 73px 25px rgba(0,0,0,0.17);
+    box-shadow: -5px 0px 73px 25px rgba(0,0,0,0.17);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #3D5EA5;
+}
+
+h3 {
+    color: #F2Af4E;
 }
 
 section {
@@ -37,7 +61,7 @@ section {
 }
 
 .mockup-image-cropped {
-    background-color: #EF6C00;
+    background-color: #d9872b;
     width: 100%;
     height: 524px;
 }
@@ -54,7 +78,7 @@ section {
 }
 
 .cr-overlay {
-    background-color: rgba(239, 108, 0, 0.8)
+    background-color: rgba(217, 135, 43, 0.8)
 }
 
 .cr-slider-wrap {
@@ -65,8 +89,20 @@ section {
 .mockup-image-cropped .logo img {
     display: block;
     margin: auto;
-    width: 500px;
-    top: 350px;
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+    top: 440px;
+    z-index: 9;
+    position: absolute;
+}
+
+.mockup-image-cropped .icon img {
+    display: block;
+    margin: auto;
+    width: 120px;
+    left: 65%;
+    top: 300px;
     z-index: 9;
     position: absolute;
 }
